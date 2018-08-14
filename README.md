@@ -5,9 +5,9 @@ Documentation about Innovelogic
 In this repository give detail about InnovaLogic organization's projects and details.
 
 Our Project List
-- ###Automated Logic Modelling Tool for Circuit Designing
+- ### Automated Logic Modelling Tool for Circuit Designing
 
-#####Group Name: Tech Antz
+##### Group Name: Tech Antz
 
 ### Introduction
 Nowadays students and the Electric Circuit designers are really engaging with testing and
@@ -21,7 +21,7 @@ In our proposed solution we analyze the given image of a logic circuit diagram a
 the logical model of that. At the same time we analyze any real world scenario which is
 given according to the proposed format, and derive the logical model behind that.
 
-###Background & Motivation
+### Background & Motivation
 Digital logic circuit is an electronic circuit used in computers to perform logical operations
 on its two or more input signals. These circuits are made up of various logic gates. AND,
 OR, NOT are the basic logic gates, which can be used as building blocks to describe the
@@ -37,7 +37,7 @@ considering all the relationships among those conditions. And also it gets a lon
 1and more cost to derive the truth table and figure out the Boolean expression related to any
 real world scenario.
 
-###Problem in Brief
+### Problem in Brief
 When deriving the real world scenario and image of a logic circuit diagram to a Digital
 circuit diagram, the basic thing is to identify the inputs, outputs and conditions. Not only that
 but also it much important to build up relationships between among all above facts.
@@ -53,12 +53,12 @@ span of time with less cost. If they are getting a failure or undefined stage th
 change their requirements and adjust to simulate a acceptable output from the Digital logic
 circuit.
 
-###Aim
+### Aim
 The aim of this project is to guide people who are interested in designing circuits to
 logically model the real world scenarios and also checking out the correctness of the
 hand-drawn logic circuit diagrams.
 
-###Objectives
+### Objectives
 
 - Extract the features of the image of hand-drawn circuit diagram.
 - Identify the components of the logic circuit diagrams such as the logic gates which have been used to draw the diagram.
@@ -71,7 +71,7 @@ hand-drawn logic circuit diagrams.
 - Derive the logical model of the given scenario.
 - Evaluate the proposed system and verify it with the help of third party.
 
-###Proposed Solution
+### Proposed Solution
 The proposed solution for the above problem is to introduce a automated logic modelling
 tool for circuit designing to get a vast advantage for the ones who are interested in Circuit
 designing. This may cause to achieve their target with the correct vision of all the inputs,
@@ -85,13 +85,13 @@ analyzed. After extracting the features of the image, the recognition of the inp
 outputs, components and the connection among them. Based on the recognized elements,
 the Boolean expression of the given logic circuit diagram will be derived.
 
-- ####Recognition of inputs and outputs of given real world scenario
+- #### Recognition of inputs and outputs of given real world scenario
 In this module we are proposing a format that user has to follow when providing the
 scenario. The user has to provide the scenario as statements and each statement should
 contain inputs and outputs according to any preferred order. The system identify the
 particular inputs and outputs of each statements.
 
-- ####Identify the relationship among statements which are given and derive the logical
+- #### Identify the relationship among statements which are given and derive the logical
 model
 This module mainly focuses on the relationships which can be identified among each of
 the statements based on the inputs and outputs which were identified earlier. Moreover a
